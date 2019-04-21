@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Counter</title>
+</head>
+
+<body>
+    <div style="margin: auto; width: 50%; border: 3px solid green; padding: 10px;">
+        <h3 style="margin:3px">Word Count</h3>
+        <form action="{% url 'count' %}" method="GET" >
+                <textarea name="fulltext" rows="4"  style="border: 1px solid green; width: 99%;"></textarea>
+                </br>
+                <input id="submit" type="submit" value="Count!!" style="margin: auto; width: 100%;">
+        </form>
+    </div>
+</body>
+</html>
+
