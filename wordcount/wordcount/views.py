@@ -14,7 +14,7 @@ def count(request):
             wordCount = len(wordList)
         else:
             wordCount = 0
-    else:
+    else: 
         wordCount = 0
 
     return render(request, 'count.html', {'wordcount': '66'})
